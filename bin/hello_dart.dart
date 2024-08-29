@@ -1,8 +1,8 @@
-import 'package:hello_dart/hello_dart.dart' as hello_dart;
-import 'dart_basics.dart';
-import 'functions.dart';
-import 'control_flow.dart';
-import 'collections.dart';
+import 'package:hello_dart/dart_basics.dart';
+import 'package:hello_dart/functions.dart';
+import 'package:hello_dart/control_flow.dart';
+import 'package:hello_dart/collections.dart';
+import 'package:hello_dart/string_manipulation.dart';
 
 void main() {
   // Calling the function from dart_basics.dart
@@ -20,4 +20,8 @@ void main() {
   // Calling the collection from collections.dart
   var objCollections = Collections();
   objCollections.practise();
+
+  // Calling the string manipulation from string_manipulation.dart
+  var objStringManipulation = StringManipulation();
+  objStringManipulation.practise();
 }
