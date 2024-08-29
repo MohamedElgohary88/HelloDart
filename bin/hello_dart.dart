@@ -3,6 +3,7 @@ import 'package:hello_dart/exception_handling.dart';
 import 'package:hello_dart/functions.dart';
 import 'package:hello_dart/control_flow.dart';
 import 'package:hello_dart/collections.dart';
+import 'package:hello_dart/oop.dart';
 import 'package:hello_dart/string_manipulation.dart';
 
 void main() {
@@ -29,5 +30,9 @@ void main() {
   // Calling the exception handling from exception_handling.dart
   var objExceptionHandling = ExceptionHandling();
   objExceptionHandling.practise();
+
+  // Calling the object oriented programming from object_oriented_programming.dart
+   var objObjectOrientedProgramming = ObjectOrientedProgramming();
+   objObjectOrientedProgramming.practise();
 
 }
