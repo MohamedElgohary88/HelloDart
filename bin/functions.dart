@@ -60,7 +60,6 @@ class Functions {
       describe(name: 'Aisha', age: 25);
 
       // Anonymous Functions (Lambdas)
-
       // An anonymous function is a function without a name.
       // It can be assigned to a variable or passed as an argument to another function.
       multiply(int a, int b) {
